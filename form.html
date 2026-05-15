@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ROMMZY</title>
+        <meta name="description" content="welcome to my website">
+        <meta name="keywords" content="my , first , website">
+        <meta name="author" content="Ade">
+        <meta name="generator" content="ade tools">
+        <meta http-equiv="refesh" content="">
+        <link rel="shortcut icon" href="images/F.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/form.css" type="text/css" media="all">
+        <script src="js/index.js" text="javascript"></script>
+    </head>
+    <body> 
+     <form action="process.php" method="post" enctype="multipart/form-data">
+         <p class="label txt">Load Photo</p>
+        <input type="file" name="photo" class="form-input" required="required">
+         <p class="label txt">First Name</p>
+        <input type="text" name="First Name" class="form-input" required="required" placeholder="Enter Your First Name">
+         <p class="label txt">Last Name</p>
+        <input type="text" name="Last Name" class="form-input" required="required" placeholder="Enter Your Last Name">
+         <p class="label txt">Matric No.</p>
+        <input type="text" name="mat no." class="form-input" required="required" value="080/222" readonly="readonly"/>
+         <p class="label txt">Password.</p>
+        <input type="password" name="password" class="form-input" required="required" placeholder="Enter Your Password">
+         <p class="label txt">Height(inch)</p>
+        <input type="number" name="Hh" class="form-input" required="required" value="5" min="5" max="200" step="4" placeholder="Enter Your height">
+         <p class="label txt">Date of Birth.</p>
+        <input type="date" name="dob" class="form-input" required="required" placeholder="Enter Your DOB">
+         <p class="label txt">Email</p>
+        <input type="email" name="email" class="form-input" required="required" placeholder="Enter Your Email Address">
+         <p class="label txt">Website Address</p>
+        <input type="url" name="url" class="form-input" required="required" placeholder="Enter Your Website Address">
+         <p class="label txt">Gender(radio button)</p>
+        <input type="radio" name="gen" value="female" required="required">Female
+        <input type="radio" name="gen" value="male" required="required">Male
+         <p class="label txt">Hobbies(checkbox)</p>
+        <input type="checkbox" name="hob" value="Swimming" required="required">Swimmimg<br>
+        <input type="checkbox" name="hob" value="chatting" required="required">Chatting<br>
+        <input type="checkbox" name="hob" value="traveling" required="required">Traveling<br>
+        <input type="checkbox" name="hob" value="reading" required="required">Reading<br>
+        <input type="checkbox" name="hob" value="cooking" required="required">Cooking<br>
+         <p class="label txt">Country</p>
+        <select name="Country"  required="required" class="form-select">
+        <option value="">Choose Your Country</option>
+        <option value="Nigeria">Nigeria</option>
+        <option value="Cameroon">Cameroon</option>
+        <option value="South Africa">South Africa</option>
+        <option value="Ghana">Ghana</option>
+    </select>
+        <div class="submit-pane">
+        <input type="submit" name="Submit" value="Submit Application" class="submit-button">
+        </div>
+
+        
+
+        
+
+
+     </form>
+    </body>
+
+</html>
